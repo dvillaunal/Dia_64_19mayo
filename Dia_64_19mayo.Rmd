@@ -1,4 +1,15 @@
-```{r}
+---
+title: "Dia_64_19mayo"
+author: "Daniel Felipe Villa Rengifo"
+date: "19/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r,eval=FALSE, include=TRUE}
 "Protocolo:
 
 1. Daniel Felipe Villa Rengifo
@@ -131,3 +142,10 @@ p <- data.frame("Presion Gases Ideales" = p)
 
 write.table(p, file = "PresionGas.txt", row.names = F)
 ```
+
+O
+```{r, eval=FALSE, include=FALSE}
+library(knitr)
+purl("Dia_64_19mayo.Rmd", "main.r")
+```
+

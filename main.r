@@ -92,6 +92,4 @@ p <- paste("La Presion de: ", base2$Gas, "es =>", base2$Presion, "atom")
 
 print(p)
 
-p <- data.frame("Presion.Gases.Ideales" = p)
-
 write.table(p, file = "PresionGas.txt", row.names = F)

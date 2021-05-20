@@ -93,3 +93,5 @@ p <- paste("La Presion de: ", base2$Gas, "es =>", base2$Presion, "atom")
 print(p)
 
 write.table(p, file = "PresionGas.txt", row.names = F)
+
+## Profe no se de que sea ese error, ya intente casi de todo, si me podria explicar.

@@ -50,7 +50,7 @@ Rm <- as.vector(conversion(base1$R))
 ## Una vez hecho esto, ahora si la funcion:
 fuerza_att <- fatt(m1 = masa1, m2 = masa2, r = Rm)
 
-fuerza_att
+print(fuerza_att)
 
 # Ahora vamos agregar texto y exportamos:
 FuerzaDeAtraccion <- paste("La Fuerza de atracción entre el Planeta 1 y Planeta 2 es: F = ", fuerza_att, "N")
@@ -90,6 +90,8 @@ base2$Presion <- Presion
 
 p <- paste("La Presion de: ", base2$Gas, "es =>", base2$Presion, "atom")
 
-p <- data.frame("Presion Gases Ideales" = p)
+print(p)
+
+p <- data.frame("Presion.Gases.Ideales" = p)
 
 write.table(p, file = "PresionGas.txt", row.names = F)

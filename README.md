@@ -59,6 +59,7 @@ masa1 <- as.vector(base1$M1 * base1$N1)
 masa2 <- as.vector(base1$M2 * base1$N2)
 
 ## Como la "r" esta dada en millones de metros entonces tenemos que convertirlos en millones de metros:
+
 conversion <- function(x){
   "Convierte de km a metros, 1 km = 1000 m"
   m <- x*1000
